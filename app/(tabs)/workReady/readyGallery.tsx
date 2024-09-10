@@ -4,8 +4,12 @@ import React from 'react'
 export default function Page() {
     return (
         <View style={styles.container}>
-            <Text>settings/options route</Text>
-            <Text>OPTIONS SCREEN</Text>
+            <Text>FOTOS DE OBRAS TERMINADAS</Text>
+            <Text>FOTO 1</Text>
+            <Text>FOTO 2</Text>
+            <Text>FOTO 3</Text>
+            <Text>FOTO 4</Text>
+            <Text>FOTO 5</Text>
         </View>
     )
 }

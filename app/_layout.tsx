@@ -6,24 +6,38 @@ export default function Layout() {
         <GestureHandlerRootView style={{ flex: 1 }}>
             <Drawer>
                 <Drawer.Screen
-                    name="index" // This is the name of the page and must match the url from root
+                    name="index"
                     options={{
-                        drawerLabel: 'Home Screen',
-                        title: 'Home',
+                        drawerLabel: 'Home',
+                        title: 'Home Screen',
                     }}
                 />
                 <Drawer.Screen
-                    name="user/[id]" // This is the name of the page and must match the url from root
+                    name="user/[id]"
                     options={{
-                        drawerLabel: 'User Details',
-                        title: 'User',
+                        drawerLabel: 'User',
+                        title: 'User Details',
                     }}
                 />
                 <Drawer.Screen
-                    name="(tabs)/settings"
+                    name="about"
                     options={{
-                        drawerLabel: 'Settings',
-                        title: 'Customization',
+                        drawerLabel: 'About',
+                        title: 'Quienes Somos',
+                    }}
+                />
+                <Drawer.Screen
+                    name="(tabs)/workInProgress"
+                    options={{
+                        drawerLabel: 'En Progreso',
+                        title: 'Trabajos en progreso',
+                    }}
+                />
+                <Drawer.Screen
+                    name="(tabs)/workReady"
+                    options={{
+                        drawerLabel: 'Terminados',
+                        title: 'Trabajos Terminados',
                     }}
                 />
             </Drawer>

@@ -4,7 +4,9 @@ import { Tabs } from 'expo-router'
 
 export default function Settings_Layout() {
     return (
-        <Tabs />
+        <Tabs screenOptions={{
+            headerShown: false
+        }} />
     )
 }
 
